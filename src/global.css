@@ -1,0 +1,35 @@
+
+
+html, body, #root{
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+a{
+    background: #BF1E2D !important;
+    border: none !important;
+    color: #FCC72B !important;
+    padding: 10px 30px !important;
+}
+
+nav{
+    z-index: 2;
+    background-color: transparent !important;
+}
+
+nav a{
+    background: none !important;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+}
+
+.team-members{
+    text-align: center;
+}
