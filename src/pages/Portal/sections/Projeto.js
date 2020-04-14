@@ -42,7 +42,7 @@ const Projeto = () => {
                 </div>
                 <div className='row' style={{display:'flex', justifyContent: 'center', textAlign: 'center'}}>
                     <div className='col-md-12'>
-                        <Link className="btn btn-primary" style={{}}>
+                        <Link className="btn btn-primary button" style={{}}>
                             Veja mais
                         </Link>
                     </div>

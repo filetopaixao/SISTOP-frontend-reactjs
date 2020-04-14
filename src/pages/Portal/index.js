@@ -2,6 +2,8 @@ import React, {useEffect} from 'react'
 import Home from './sections/Home'
 import Projeto from './sections/Projeto'
 import Equipe from './sections/Equipe'
+import Noticias from './sections/Noticias'
+import ProducaoIntelectual from './sections/ProducaoIntelectual'
 import { Link, useHistory } from 'react-router-dom' //useHistory é pra redirecionar para uma página
 
 //logo
@@ -26,6 +28,8 @@ const Portal = () => {
             <Home />
             <Projeto />
             <Equipe />
+            <ProducaoIntelectual />
+            <Noticias />
         </>
     )
 }

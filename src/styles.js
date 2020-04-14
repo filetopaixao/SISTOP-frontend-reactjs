@@ -90,4 +90,45 @@ export const TeamMemberPhotoOverlay = styled.div`
     }
 `
 
+export const PostCard = styled.div`
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 10px;
+    height: 570px;
+    padding: 20px;
+    margin-right: 10px;
+    h5{
+        margin-top: -35px;
+    }
+    p{
+        font-size: 12px;
+    }
+`
+
+export const PostPhoto = styled.div`
+    background-position: center;
+    padding: 10px;
+    background-image: ${props => `url(${props.photo})` };
+    background-size: cover;
+     width: 100%;
+     height: 300px;
+`
+export const PostPhotoOverlay = styled.div`
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        margin-right: 15px;
+    }
+    p{
+        color: #BF1E2D;
+        font-weight: bold;
+        font-size: 15px;
+    }
+`
+
 //Sections

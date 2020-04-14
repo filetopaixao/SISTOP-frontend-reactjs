@@ -7,7 +7,20 @@ html, body, #root{
     margin: 0;
 }
 
-a{
+.navbar-light a{
+    color: #fff !important;
+    margin-right: 15px;
+}
+
+.nav-link{
+    color: #BF1E2D !important;
+}
+
+.active{
+    color: #999 !important;
+}
+
+.button{
     background: #BF1E2D !important;
     border: none !important;
     color: #FCC72B !important;
