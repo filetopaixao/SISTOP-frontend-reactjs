@@ -46,3 +46,7 @@ nav a{
 .team-members{
     text-align: center;
 }
+
+.nav-link{
+    cursor: pointer;
+}

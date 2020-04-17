@@ -1,7 +1,6 @@
 import React from 'react'
 
 const NavTabs = (props) => {
-    console.log('AEE', props.producaoCientifica)
     return(
         <>
             <ul className="nav nav-tabs" id="myTab" role="tablist">

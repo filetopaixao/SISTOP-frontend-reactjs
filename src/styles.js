@@ -52,6 +52,29 @@ padding: 40px 0px ;
         text-align: center;
         margin-bottom: 50px;
     }
+    .rodape h5{
+        color: #fff;
+    }
+
+    .rodape p{
+        color: #fff;
+    }
+
+    .rodape ul{
+        margin-left: -20px !important;
+        list-style: square;
+        color: #fff;
+    }
+
+    .rodape a{
+        color: #fff;
+    }
+
+    .copyright{
+        color: #fff;
+        text-align: center;
+        margin-top: 25px;
+    }
 `
 
 export const TeamMemberCard = styled.div`
@@ -93,7 +116,7 @@ export const TeamMemberPhotoOverlay = styled.div`
 export const PostCard = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 10px;
-    height: 570px;
+    height: 535px;
     padding: 20px;
     margin-right: 10px;
     h5{
@@ -129,6 +152,29 @@ export const PostPhotoOverlay = styled.div`
         font-weight: bold;
         font-size: 15px;
     }
+`
+
+
+export const PartnerCard = styled.div`
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 10px;
+    height: 170px;
+    padding: 20px;
+    margin-right: 10px;
+    p{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+`
+
+export const PartnerPhoto = styled.div`
+    background-position: center;
+    padding: 10px;
+    background-image: ${props => `url(${props.photo})` };
+    background-size: cover;
+    width: 130px;
+    height: 90px;
+    margin: auto;
 `
 
 //Sections

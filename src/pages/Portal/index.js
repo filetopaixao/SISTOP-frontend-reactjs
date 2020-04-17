@@ -4,6 +4,9 @@ import Projeto from './sections/Projeto'
 import Equipe from './sections/Equipe'
 import Noticias from './sections/Noticias'
 import ProducaoIntelectual from './sections/ProducaoIntelectual'
+import Parceiros from './sections/Parceiros'
+import Contato from './sections/Contato'
+import Rodape from './sections/Rodape'
 import { Link, useHistory } from 'react-router-dom' //useHistory é pra redirecionar para uma página
 
 //logo
@@ -30,6 +33,9 @@ const Portal = () => {
             <Equipe />
             <ProducaoIntelectual />
             <Noticias />
+            <Parceiros />
+            <Contato />
+            <Rodape />
         </>
     )
 }

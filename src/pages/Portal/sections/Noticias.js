@@ -37,7 +37,7 @@ const Noticias = () => {
 
     return(
         <div style={{ backgroundColor:'#f8f9fa'}}>
-            <Section className="container" id="equipe">
+            <Section className="container" id="noticias">
                 <h2>Notícias</h2>
 
                 <SliderNews news={news} />
