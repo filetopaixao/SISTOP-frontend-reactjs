@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
-import Content from '../../../components/Portal/Content'
-import Menu from '../../../components/Portal/Menu'
+import Content from '../../../components/Home/Content'
+import Menu from '../../../components/Home/Menu'
 import {Header, Overlay} from '../../../styles'
 //import { Link, useHistory } from 'react-router-dom' //useHistory é pra redirecionar para uma página
 
